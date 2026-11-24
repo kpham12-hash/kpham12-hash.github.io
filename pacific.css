@@ -275,5 +275,29 @@ footer {
     font-family: Georgia, "Times New Roman", serif;
     padding: 2em;
 }
+
+table {
+  margin: auto;
+  border: 1px solid #3399CC;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid #3399CC;
+}
+
+td {
+  text-align: center;
+}
+
+.text {
+  text-align: left;
+}
+
+tr:nth-of-type(even) {
+  background-color: #DFEDF8;
+}
 	
 
